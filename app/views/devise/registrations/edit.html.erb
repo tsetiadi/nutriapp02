@@ -21,11 +21,13 @@
 
         <div class="panel-form"><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
           <%= f.password_field :current_password, autocomplete: "off", class: "form-control" %></div>
-    </div>      
+          
     <div class="form_group">
       <%= f.submit "Update", class: "btn btn-primary" %>
     </div>
-<% end %>
+    <% end %>
+    
+    </div>
   <div class="panel-footer">
     <%= link_to "Back", :back %>
   </div>

@@ -13,16 +13,15 @@
 
 		  <div class="form_group"><%= f.label :password_confirmation, "Confirm new password" %><br />
 		    <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %></div>
-	</div>
 
 	<div class="form_group">
 		<%= f.submit "Change my password", class: "btn btn-primary" %>
 	</div>
-
 	<% end %>
+	</div>
 
 	<div class="panel-footer">
 		<%= render "devise/shared/links" %>
 	</div>
-	
+
 </div>
